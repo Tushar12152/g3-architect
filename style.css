@@ -132,8 +132,76 @@ main{
     line-height: 1.6rem; 
     padding:10px;
 }
+/* feature-section */
+.featured-section{
+    display:flex;
+    margin-top:130px;
+    gap:100px;
+    
+}
+.feature-image{
+    width:708px;
+}
+.feature-content{
+    margin-left:50px;
+}
 
+.feature-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top:20px;
+    padding:20px;
+}
 
+.feature-content .card-title{
+    color:#131313;
+font-size: 20px;
+font-weight: 600;
+}
+.feature-content .card-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.feature-ttitle{
+    color:#131313;
+font-size: 45px;
+font-weight: 700;
+padding:20px;
+border-left:3px solid  #FF900E;
+}
+.feature-description{
+  
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.ten-years-badge{
+    color: #FFF;
+    text-align: center;
+    width:258px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    background-color: #FF900E;
+    padding:45px 42px;
+    border-radius: 8px;
+    position:relative;
+    bottom:100px;
+    right:80px;
+}
+.ten-years-badge>p{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* fact-section */
 .fact-title{
     color:#131313;
     font-size: 2.8rem;
@@ -288,6 +356,9 @@ padding:30px 300px;
 
     
 }
+.featured-section{
+    flex-direction: column;
+}
 
 }
 
@@ -343,4 +414,8 @@ padding:30px 300px;
     margin:0px;
     padding:0px;
 }
+.featured-section{
+    flex-direction: column;
+}
+
 }
